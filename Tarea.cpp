@@ -1,7 +1,7 @@
 #include <bitset>
 #include <iostream>
 
-// Declaraciones prev
+
 std::bitset<32> twosComplement(std::bitset<32> b, int n);
 std::bitset<32> binaryAddition(std::bitset<32> a, std::bitset<32> b, int n);
 std::bitset<32> arithmeticShiftRight(std::bitset<32> a, std::bitset<32> q,
