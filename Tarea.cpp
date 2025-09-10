@@ -97,7 +97,7 @@ int main() {
 
   std::bitset<32> result = boothMultiplication(M, Q, n);
 
-  std::cout << "Result in binary: " << result.to_string().substr(32 - n * 2)
+  std::cout << "Resultado en Binario: " << result.to_string().substr(32 - n * 2)
             << std::endl;
   return 0;
 }
